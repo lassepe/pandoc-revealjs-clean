@@ -1,57 +1,23 @@
-You can use pandoc to produce beautiful slides using [reveal.js](https://revealjs.com/).
+# pandoc-revealjs-clean
 
-# Setup
+A clean repository to clone and create a new deck of [reveal.js](https://github.com/hakimel/reveal.js)  slides with pandoc.
 
-Download the latest [`reveal.js`](https://github.com/hakimel/reveal.js/archive/master.zip) and place it in a folder called `reveal.js`:
+## Dependencies
 
-    wget https://github.com/hakimel/reveal.js/archive/master.tar.gz
-    tar -xzvf master.tar.gz
-    mv reveal.js-master reveal.js
+- [pandoc](https://github.com/jgm/pandoc)
+- [pandoc-compose](github.com/gfelbing/pandoc-compose)
 
-To provide local reveal assets to the slide deck, add a flag like `-V revealjs-url=./reveal.js` to your pandoc call.
+## Usage
 
-You can skip the above step by referencing the reveal.js URL when calling pandoc later. To do that, add the `-V revealjs-url=https://revealjs.com` option in your `pandoc` call. **Note:** in this case, you will require Internet access to show your slides, and that they will not be standalone. 
+1. Clone this repository: `git clone https://github.com/lassepe/revealjs-clean`
+2. Initialize submodules: `git submodule init`
+3. Build `slides.md` by running `pandoc-compose` in the project root.
 
-Now, create a file called `myslides.md` with your content. It may optionally include a YAML front matter for title, author, and date:
+## More Information:
 
-    ---
-    author: John Doe
-    title: Demo Slide
-    date: June 21, 2017
-    ---
-    # Foo
-    ```python
-    print("hello world")
-    ```
-    # Bar
-    * test
-    * test
+Some useful resources:
 
-# Creating the Slides
 
-Use this command to produce your slideshow:
-
-    pandoc -t revealjs -s -o myslides.html myslides.md -V revealjs-url=https://revealjs.com
-
-# Themes
-
-You can use `-V theme=$theme` to set your theme as `$theme`, with the following options:
-
-- `beige`
-- `black`
-- `blood`
-- `league`
-- `moon`
-- `night`
-- `serif`
-- `simple`
-- `sky`
-- `solarized`
-- `white`
-
-Here are [some example presentations using reveal.js](https://github.com/hakimel/reveal.js/wiki/Example-Presentations).
-
-# Transitions
-You can use `-V transition=$transition` to set your theme as `$transition`, with the following options:
-
-- `cube`
+- [hakimel/reveal.js](https://github.com/hakimel/reveal.js/#auto-sliding)
+- [jgm/pandoc/wiki: Using pandoc to produce reveal.js slides](https://github.com/jgm/pandoc/wiki/Using-pandoc-to-produce-reveal.js-slides)
+- [StackOverflow: Level 1 and level 2 slides in reveal.js using pandoc](https://stackoverflow.com/questions/30988306/level-1-and-level-2-slides-in-reveal-js-using-pandoc)
