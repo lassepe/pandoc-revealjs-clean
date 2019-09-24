@@ -1,6 +1,6 @@
 ---
 author: Lasse Peters
-title: revealjs-clean
+title: pandoc-revealjs-clean
 date: September 23, 2019
 # setup to use local js assets (for offline mode)
 # to use online rescources: replace with https://revealjs.com
