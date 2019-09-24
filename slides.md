@@ -2,8 +2,9 @@
 author: Lasse Peters
 title: Test Reveal.js
 date: September 23, 2019
-
-revealjs-url: https://revealjs.com
+# setup to use local js assets (for offline mode)
+# to use online rescources: replace with https://revealjs.com
+revealjs-url: ./reveal.js
 theme: serif
 # options:
 #    beige
@@ -17,7 +18,6 @@ theme: serif
 #    sky
 #    solarized
 #    white
-#
 transition: slide
 # options:
 #    cube
