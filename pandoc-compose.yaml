@@ -1,0 +1,7 @@
+to: revealjs
+standalone: true
+output: build/slides.html
+slide-level: 2
+
+files:
+    - slides.md
