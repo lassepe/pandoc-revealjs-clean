@@ -22,6 +22,7 @@ transition: slide
 # options:
 #    cube
 #    slide
+#    none
 ---
 
 # Chapter 1
