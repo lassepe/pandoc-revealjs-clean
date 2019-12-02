@@ -2,6 +2,7 @@ to: revealjs
 standalone: true
 output: build/slides.html
 slide-level: 2
+include-in-header: custom.css
 
 files:
     - slides.md
