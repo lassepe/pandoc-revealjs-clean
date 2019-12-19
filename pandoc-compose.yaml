@@ -1,8 +1,13 @@
 to: revealjs
 standalone: true
-output: build/slides.html
+self-contained: true
+mathjax: true
 slide-level: 2
 include-in-header: custom.css
+# Using this template allows you to specify all reveal-js init options via
+# `initoptions`. See upstream issue https://github.com/jgm/pandoc/issues/5963
+template: custom.revealjs
+output: example.html
 
 files:
-    - slides.md
+    - "example.md"
