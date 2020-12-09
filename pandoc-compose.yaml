@@ -6,8 +6,9 @@ slide-level: 2
 include-in-header: custom.css
 # Using this template allows you to specify all reveal-js init options via
 # `initoptions`. See upstream issue https://github.com/jgm/pandoc/issues/5963
-template: custom.revealjs
-output: example.html
+output: slides.html
 
 files:
-    - "example.md"
+    - "00_meta.md"
+    - "README.md"
+    - "10_body.md"
