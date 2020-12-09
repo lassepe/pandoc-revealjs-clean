@@ -1,18 +1,138 @@
 <style type="text/css">
-    /* add your custom css here */
-    /* example: scale the main font size */
-    .reveal {
-        font-size: 30px
-    }
+.reveal h1 { font-weight: bold; font-size: 2.0em; }
+.reveal h2 { font-weight: bold; font-size: 1.5em; }
+.reveal h3 { font-weight: bold; font-size: 1.0em; }
 
-    /* custom styling to show keyboard keys */
-    .kbd {
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        padding: 0.1em 0.5em;
-        margin: 0 0.2em;
-        box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
-        background-color: #f7f7f7;
-    }
+.reveal .controls, .reveal a, .reveal .progress, .hl-blue {
+    color: #1b91ff;
+}
+
+.chapter-active {
+    font-family: "News Cycle", Impact, sans-serif;
+    letter-spacing: normal;
+    font-size: 2.0em;
+    font-weight: bold;
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+}
+.chapter-inactive {
+    font-family: "News Cycle", Impact, sans-serif;
+    letter-spacing: normal;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    color: gray;
+    display: block;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+}
+
+/* scale the main font size */
+.reveal {
+    font-size: 30px
+}
+
+.reveal section img {
+    border: none;
+}
+
+.darkbox {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.darkbox h3 {
+    color: white;
+    text-align: center;
+}
+
+.footnote-size {
+    font-size: 0.7em
+}
+
+.bibitem {
+    margin-left: 1em;
+    text-indent: -1em;
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.indented {
+    padding-left: 1em;
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-left-style: solid;
+    border-width: 5px;
+}
+
+.lcol {
+    float: left;
+}
+
+.rcol {
+    float: right;
+    margin: 0.5em;
+}
+
+.lalign {
+    text-align: left;
+}
+.calign {
+    text-align: center;
+}
+
+.hl-green {
+    color: #17ff2e;
+
+}
+.hl-red {
+    color: #ff2c2d;
+}
+
+.tblock {
+	display: inline-block;
+	margin-right: 0.5em
+}
+
+.spacer-15 {
+    visibility: hidden;
+    display: inline-block;
+    height: 1.5em;
+}
+
+.spacer-20 {
+    visibility: hidden;
+    display: inline-block;
+    height: 2em;
+}
+
+.todo{
+    color: red;
+    border: solid;
+    padding: 0.2em;
+}
+
+mjx-container[display="true"] {
+    margin: 0.5em!important;
+}
+
+.reveal .slides section .fragment.shrink.visible {
+    transform: scale(0.45);
+}
+
+
 </style>
