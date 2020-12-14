@@ -5,7 +5,7 @@ date: December 09, 2020
 # setup to use local js assets (for offline mode)
 # to use online rescources: replace with https://revealjs.com
 revealjs-url: ./assets/reveal.js
-theme: white
+theme: simple
 # options:
 #    beige
 #    black
