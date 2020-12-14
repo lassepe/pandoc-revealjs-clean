@@ -19,13 +19,8 @@ theme: white
 #    solarized
 #    white
 # complete list of init options: https://github.com/hakimel/reveal.js/#configuration
-initoptions:
-    - "slideNumber: true"
-    - "width: 1400"
-    - "height: 787"
-    - "transition: \\'slide\\'"
-    - "backgroundTransition: \\'fade\\'"
-    - "hash: true"
-    - "fragmentInURL: true"
-    - "pdfSeparateFragments: false"
+slideNumber: true
+transition: 'slide'
+hash: true
+fragmentInURL: true
 ---
