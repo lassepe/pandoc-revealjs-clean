@@ -1,6 +1,6 @@
 ---
 author: Lasse Peters
-# title: pandoc-revealjs-clean
+title: Your New Slides
 date: December 09, 2020
 # setup to use local js assets (for offline mode)
 # to use online rescources: replace with https://revealjs.com

@@ -10,5 +10,4 @@ output: slides.html
 
 files:
     - "00_meta.md"
-    - "README.md"
     - "10_body.md"
