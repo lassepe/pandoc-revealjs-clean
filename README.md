@@ -10,9 +10,10 @@ A clean repository to clone and create a new deck of [reveal.js](https://github.
 ## Usage
 
 1. Clone this repository: `git clone -https://github.com/lassepe/pandoc-revealjs-clean`
-2. From the project root, run `./setup.sh`
-3. Build `slides.md` by running `pandoc-compose` in the project root.
-4. [Optional] Launch the node server for live updates: `npm start --prefix assets/reveal.js`
+2. Create the `main` branch to decouple it from the default `template` branch: `git checkout -b main`
+3. From the project root, run `./setup.sh`
+4. Build `slides.md` by running `pandoc-compose` in the project root.
+5. [Optional] Launch the node server for live updates: `npm start --prefix assets/reveal.js`
 
 ## More Information:
 
