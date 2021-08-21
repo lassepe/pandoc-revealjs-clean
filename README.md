@@ -4,7 +4,7 @@ A clean repository to clone and create a new deck of [reveal.js](https://github.
 
 ## Dependencies
 
-- [pandoc](https://github.com/jgm/pandoc)
+- [pandoc](https://github.com/jgm/pandoc) (last tested with pandoc 2.14.0.2)
 - [pandoc-compose](github.com/gfelbing/pandoc-compose)
 
 ## Usage
