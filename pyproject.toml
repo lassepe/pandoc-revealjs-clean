@@ -7,6 +7,7 @@ authors = ["lassepe <lasse.peters@mailbox.org>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 pandoc-compose = "^0.0.7"
+dvc = {extras = ["gdrive"], version = "^2.7.4"}
 
 [tool.poetry.dev-dependencies]
 
