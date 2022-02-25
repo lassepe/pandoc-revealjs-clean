@@ -1,6 +1,6 @@
 to: revealjs
 standalone: true
-self-contained: true
+self-contained: false
 mathjax: true
 slide-level: 2
 include-in-header: custom.css

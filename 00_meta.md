@@ -23,4 +23,5 @@ slideNumber: true
 transition: 'slide'
 hash: true
 fragmentInURL: true
+width: 1440
 ---
